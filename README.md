@@ -10,3 +10,7 @@ usuário a escolher entre as opções:
 - Listar os veículo do sistema.
 - Encerrar o sistema.
 
+### Requisitos:
+- ***Windows:*** Microsoft .NET Framework 3.1 ou mais recente
+- ***Linux/Outros:*** Mono 3.1 ou mais recente
+
