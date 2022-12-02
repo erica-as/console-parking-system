@@ -14,9 +14,10 @@ namespace SistemaAutomotivo
             decimal precoPorHora = 0;
 
             Console.WriteLine("Seja bem vindo ao sistema de estacionamento!\n" +
-                            "Digite o preço inicial:");
+                            "Para cancelar a operação, basta clicar em Ctrl+C");
+            
+            Console.WriteLine("Digite o preço inicial:");
             precoInicial = Convert.ToDecimal(Console.ReadLine());
-
             Console.WriteLine("Agora digite o preço por hora:");
             precoPorHora = Convert.ToDecimal(Console.ReadLine());
 
@@ -25,8 +26,7 @@ namespace SistemaAutomotivo
 
             string opcao = string.Empty;
             bool exibirMenu = true;
-
-            // Realiza o loop do menu
+   
             while (exibirMenu)
             {
                 Console.Clear();
@@ -55,15 +55,15 @@ namespace SistemaAutomotivo
                         break;
 
                     default:
-                        Console.WriteLine("Opção inválida");
+                        Console.WriteLine("Opção inválida.");
                         break;
                 }
 
-                Console.WriteLine("Pressione uma tecla para continuar");
+                Console.WriteLine("Pressione uma tecla para continuar.");
                 Console.ReadLine();
             }
 
-            Console.WriteLine("O programa se encerrou");
+            Console.WriteLine("O programa se encerrou.");
         }
     }
 }
